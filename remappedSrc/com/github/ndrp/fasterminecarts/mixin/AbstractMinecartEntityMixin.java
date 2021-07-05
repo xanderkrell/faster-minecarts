@@ -1,6 +1,5 @@
 package com.github.ndrp.fasterminecarts.mixin;
 
-import me.shedaniel.autoconfig.AutoConfig;
 import net.minecraft.block.AbstractRailBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -19,6 +18,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import com.github.ndrp.fasterminecarts.config.FasterMinecartsConfig;
 import com.github.ndrp.fasterminecarts.util.MinecartUtility;
+import me.sargunvohra.mcmods.autoconfig1u.AutoConfig;
 
 @Mixin(AbstractMinecartEntity.class)
 public abstract class AbstractMinecartEntityMixin extends Entity {
